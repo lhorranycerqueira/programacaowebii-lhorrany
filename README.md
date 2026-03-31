@@ -46,3 +46,14 @@ tamanho da tela eh mais importante !
 tamanho da fonte
 16px = 1em
 vai crescer proporcionalmente
+
+# Aula 31/03
+
+provas dias 7 e 9 - pw e bd
+fazer slide de etica
+prova de mobile dia 10
+exercicios joao edison
+arrumar o site
+exercicios de quimica
+exercicio de bd
+prova de geografia dia 10

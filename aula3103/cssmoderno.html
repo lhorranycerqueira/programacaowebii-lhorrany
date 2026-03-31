@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS moderno</title>
+</head>
+<style>
+    body {
+        background-color: #D3D3D3;
+        background-image: url('pedra.jpg');
+        font-family: Arial, sans-serif;
+    }
+
+    .texto-azul {
+color: rgb(0, 11, 128);
+font-size: 24px;
+font-weight: bold;
+    }
+
+    table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    }
+
+    table td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        border: 3px solid #000;
+
+    }
+    .coluna-numerica {
+        text-align: right;
+        font-family: 'Courier New', monospace;
+    }
+</style>
+<body>
+    <div style="text-align: center;">
+        <p class="texto-azul">Status do Personagem: Ada Wong</p>
+        
+        <table>
+            <tr>
+                <td colspan="2">
+                    <span class="texto-azul">Guerreira Nível 1998</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://i.ytimg.com/vi/T78HIXVAkTo/maxresdefault.jpg" alt="Avatar">
+                    
+                </td>
+                <td class="coluna-numerica">
+                              Força: 200 <br>
+                        Agilidade: 30 <br>
+                        Habilidades: "Vou enganar o Leon" nivel 20, "Matar o Mr. X" nível 10, "Hackear a Umbrella" nível 10.
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

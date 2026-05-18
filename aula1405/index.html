@@ -33,7 +33,9 @@
     <div class="cartao">
         <h3>PERFIL DO DESENVOLVEDOR</h3>
         <p>Nome: <span id="cartao-nome" class="destaque">????</span></p>
+        <p>Linguagem: <span id="cartao-linguagem" class="destaque">????</span></p>
     </div>
+
     <script>
         let botao = document.getElementById("btn-registrar");
 
@@ -44,7 +46,7 @@
         let spanLinguagem = document.getElementById("cartao-linguagem");
 
         botao.addEventListener("click", function() {
-            let nomeDigitado = campo.Nome.value;
+            let nomeDigitado = campoNome.value;
             let linguagemDigitada = campoLinguagem.value;
 
             spanNome.innerText = nomeDigitado;
